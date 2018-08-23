@@ -92,12 +92,14 @@ myTask.addTask(new Task(1, today, "chevron down button smooth scrolling to targe
 
 myTask.addTask(new Task(2, today, "same task as 1 but copied the css from style.css to azure-monitor-oms.css and added margin top", ['smooth-scrolling', 'anchor-tag', 'chevron']));
 
+myTask.addTask(new Task(3, today, ["task 2 deployed to live", "created dummy gmail account for Oauth in every maintained site", "Used social login plugin in octoberCMS"], ['Oauth', 'social-login']));
+
 
 console.log("---------- See all tasks ----------");
-// console.log(myTask);
-console.log(myTags.getTagNames());
+console.log(myTask);
+// console.log(myTags.getTagNames());
 console.log("***********************************");
 
 console.log("---------- Latest Task ----------");
-// console.log(myTask.getLatestTask());
+console.log(myTask.getLatestTask());
 console.log("*********************************");
