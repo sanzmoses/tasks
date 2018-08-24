@@ -88,11 +88,13 @@ let myTags = new Tags();
 
 myTags.addTag(new Tag(1, "anchor", 1));
 
-myTask.addTask(new Task(1, today, "chevron down button smooth scrolling to target div in a page task, navbaranimate.js, style.css on http://dev2.microsoft-oms.com/azure-monitor-oms only", ['smooth-scrolling', 'anchor-tag']));
+myTask.addTask(new Task(1, '08/22/2018', "chevron down button smooth scrolling to target div in a page task, navbaranimate.js, style.css on http://dev2.microsoft-oms.com/azure-monitor-oms only", ['smooth-scrolling', 'anchor-tag']));
 
-myTask.addTask(new Task(2, today, "same task as 1 but copied the css from style.css to azure-monitor-oms.css and added margin top", ['smooth-scrolling', 'anchor-tag', 'chevron']));
+myTask.addTask(new Task(2, '08/22/2018', "same task as 1 but copied the css from style.css to azure-monitor-oms.css and added margin top", ['smooth-scrolling', 'anchor-tag', 'chevron']));
 
-myTask.addTask(new Task(3, today, ["task 2 deployed to live", "created dummy gmail account for Oauth in every maintained site", "Used social login plugin in octoberCMS"], ['Oauth', 'social-login']));
+myTask.addTask(new Task(3, '08/23/2018', ["task 2 deployed to live", "created dummy gmail account for Oauth in every maintained site", "Used social login plugin in octoberCMS"], ['Oauth', 'social-login']));
+
+myTask.addTask(new Task(4, '08/24/2018', ["Add facebook and google sign in to microsites", "added to employee-ss but not yet done", "add to dev.caseddimensions but not yet done"], ['Oauth', 'social-login']));
 
 
 console.log("---------- See all tasks ----------");
