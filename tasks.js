@@ -96,6 +96,8 @@ myTask.addTask(new Task(3, '08/23/2018', ["task 2 deployed to live", "created du
 
 myTask.addTask(new Task(4, '08/24/2018', ["Add facebook and google sign in to microsites", "added to employee-ss but not yet done", "add to dev.caseddimensions but not yet done"], ['Oauth', 'social-login']));
 
+myTask.addTask(new Task(4, '08/28/2018', ["Added new microsite - microsoft-ems.com", "added all pages, db in site, dev in site and all credentials", "add to dev.caseddimensions but not yet done"], ['microsite', 'microsoft-ems']));
+
 
 console.log("---------- See all tasks ----------");
 console.log(myTask);
