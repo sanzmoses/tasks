@@ -98,6 +98,8 @@ myTask.addTask(new Task(4, '08/24/2018', ["Add facebook and google sign in to mi
 
 myTask.addTask(new Task(4, '08/28/2018', ["Added new microsite - microsoft-ems.com", "added all pages, db in site, dev in site and all credentials", "add to dev.caseddimensions but not yet done"], ['microsite', 'microsoft-ems']));
 
+myTask.addTask(new Task(4, '08/28/2018', ["Starting task 'Request for a demo' button", "add in all microsites", "updates in service-desk (outsourced-it) microsite"], ['microsite', 'microsoft-ems']));
+
 
 console.log("---------- See all tasks ----------");
 console.log(myTask);
