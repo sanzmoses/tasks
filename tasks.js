@@ -71,6 +71,7 @@ var today = new Date();
 var dd = today.getDate();
 var mm = today.getMonth()+1; //January is 0!
 var yyyy = today.getFullYear();
+var time = today.toLocaleTimeString();
 
 if(dd<10) {
     dd = '0'+dd
@@ -96,10 +97,11 @@ myTask.addTask(new Task(3, '08/23/2018', ["task 2 deployed to live", "created du
 
 myTask.addTask(new Task(4, '08/24/2018', ["Add facebook and google sign in to microsites", "added to employee-ss but not yet done", "add to dev.caseddimensions but not yet done"], ['Oauth', 'social-login']));
 
-myTask.addTask(new Task(4, '08/28/2018', ["Added new microsite - microsoft-ems.com", "added all pages, db in site, dev in site and all credentials", "add to dev.caseddimensions but not yet done"], ['microsite', 'microsoft-ems']));
+myTask.addTask(new Task(5, '08/28/2018', ["Added new microsite - microsoft-ems.com", "added all pages, db in site, dev in site and all credentials", "add to dev.caseddimensions but not yet done"], ['microsite', 'microsoft-ems']));
 
-myTask.addTask(new Task(4, '08/28/2018', ["Starting task 'Request for a demo' button", "add in all microsites", "updates in service-desk (outsourced-it) microsite"], ['microsite', 'microsoft-ems']));
+myTask.addTask(new Task(6, '09/03/2018', ["Starting task 'Request for a demo' button", "add in all microsites", "updates in service-desk (outsourced-it) microsite"], ['microsite', 'microsoft-ems']));
 
+myTask.addTask(new Task(7, '09/04/2018', ["Request demo button done", "add in 3 microsites (employee-ss, outsourced-it, itamaas)", "employee-ss live not yet done"], ['microsites']))
 
 console.log("---------- See all tasks ----------");
 console.log(myTask);
