@@ -103,6 +103,8 @@ myTask.addTask(new Task(6, '09/03/2018', ["Starting task 'Request for a demo' bu
 
 myTask.addTask(new Task(7, '09/04/2018', ["Request demo button done", "add in 3 microsites (employee-ss, outsourced-it, itamaas)", "employee-ss live not yet done"], ['microsites']))
 
+myTask.addTask(new Task(7, '09/04/2018', ["Apply navbar shrinking animation and request a demo button to 3 microsites", "Fixed all navbar issues in asset management"], ['microsites']))
+
 console.log("---------- See all tasks ----------");
 console.log(myTask);
 // console.log(myTags.getTagNames());
