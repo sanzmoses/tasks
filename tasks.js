@@ -103,9 +103,10 @@ myTask.addTask(new Task(6, '09/03/2018', ["Starting task 'Request for a demo' bu
 
 myTask.addTask(new Task(7, '09/04/2018', ["Request demo button done", "add in 3 microsites (employee-ss, outsourced-it, itamaas)", "employee-ss live not yet done"], ['microsites']))
 
-myTask.addTask(new Task(7, '09/04/2018', ["Apply navbar shrinking animation and request a demo button to 3 microsites", "Fixed all navbar issues in asset management"], ['microsites']))
+myTask.addTask(new Task(8, '09/05/2018', ["Apply navbar shrinking animation and request a demo button to 3 microsites", "Fixed all navbar issues in asset management"], ['microsites']))
 
-myTask.addTask(new Task(7, '09/04/2018', ["Applied favico, responsive banner", "All microsites"], ['microsites']))
+myTask.addTask(new Task(9, '09/06/2018', ["Applied favico, responsive banner", "All microsites"], ['microsites']))
+myTask.addTask(new Task(10, '09/07/2018', ["Worked on microsoftoms.com", "Minor changes", "created subdomain, db and ready for deployment"], ['microsites', 'oms']))
 
 console.log("---------- See all tasks ----------");
 console.log(myTask);
