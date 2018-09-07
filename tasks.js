@@ -113,3 +113,18 @@ console.log("***********************************");
 console.log("---------- Latest Task ----------");
 console.log(myTask.getLatestTask());
 console.log("*********************************");
+
+let app = {[
+	{
+		name: "Code Library",
+		type: "SPA",
+		tech: {
+			lang:"Javascript",
+			framework: "Laravel / Vue only",
+			db: "Firebase / Mysql"
+		},
+		host: "Github Pages",
+		description: ["Storage of Code samples and solutions"]
+	},
+
+]}
