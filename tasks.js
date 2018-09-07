@@ -105,6 +105,8 @@ myTask.addTask(new Task(7, '09/04/2018', ["Request demo button done", "add in 3 
 
 myTask.addTask(new Task(7, '09/04/2018', ["Apply navbar shrinking animation and request a demo button to 3 microsites", "Fixed all navbar issues in asset management"], ['microsites']))
 
+myTask.addTask(new Task(7, '09/04/2018', ["Applied favico, responsive banner", "All microsites"], ['microsites']))
+
 console.log("---------- See all tasks ----------");
 console.log(myTask);
 // console.log(myTags.getTagNames());
